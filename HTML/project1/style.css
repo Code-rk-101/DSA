@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    
+}
+#center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+#heading
+{
+    text-align: center;
+}
+#main
+{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 5px black solid;
+
+}
+
+.shapes{
+    height: 200px;
+    width: 200px;
+    background-color :white;
+    border: 2px black solid;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circle
+{
+    border-radius: 50%;
+}
+#circle:hover
+{
+    background-color: green;
+}
+#diamond
+{
+    
+    margin-top: 60px;
+    rotate: 45deg;
+}
+#diamond h3{
+    rotate: -45deg;
+}
+#diamond:hover
+{
+    background-color:rgb(15, 159, 237);
+}
+#square:hover
+{
+    background-color: red;
+}

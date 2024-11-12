@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            background-image: url('https://cdn.leonardo.ai/users/2082842f-8e3e-441c-a36e-6afb94d8771a/generations/c9485966-fa0d-4b36-8fab-da54b81cb626/Cinematic_Kino_an_emoji_is_celebrating_the_victory_simple_and_3.jpg?w=512');
+            background-size: cover;
+            height: 100vh;
+        }
+        .result-container {
+            position: fixed;
+            top: 40%;
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff5b;
+            border-radius: 20px;
+            border: 2px black solid;
+            box-shadow: 0 100px 200px rgba(0, 0, 0, 0.47);
+        }
+        .button{ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            width: 70px;
+            height: 2px;
+            
+            padding: 20px;
+            background-color: #ffffff5b;
+            border-radius: 20px;
+            border: 2px black solid;
+            box-shadow: 0 100px 200px rgba(0, 0, 0, 0.47);
+        }
+        #next{
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+            margin: 5%;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(1, 1, 1);
+        }
+        p {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 18px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-container">
+        <h1>Quiz Result</h1>
+        <p>Your score: <span id="user-score" style="color: green;">7</span>/10</p>
+        <p>Great job! Keep it up!</p>
+       
+    </div>
+    <!-- <div id='next'> -->
+        <div class="button" id='continue'>continue</div></div>
+        <div class="button" id='home'>Home</div></div>
+    <!-- </div> -->
+</body>
+</html>

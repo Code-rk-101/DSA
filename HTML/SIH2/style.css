@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('https://cdn.leonardo.ai/users/2082842f-8e3e-441c-a36e-6afb94d8771a/generations/b572c206-49d6-423d-b520-4dd24d416fd2/Cinematic_Kino_A_stylized_Earth_glossy_and_waterlike_emerges_w_3.jpg');
+}
+#align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.login-container {
+    max-width: 400px;
+    margin: 250px;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(101, 117, 129, 0.419); 
+    border: 3px black solid;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px black;
+
+}
+.login-container h2 {
+    text-align: center;
+}
+.login-input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px black;
+}
+.login-button {
+    width: 40%;
+    padding: 10px;
+    background-color: #0d89d6;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 15px;
+    box-shadow: 0 5px 10px black;
+}
+.login-button:hover {
+    background-color: rgb(40, 153, 194);
+}
