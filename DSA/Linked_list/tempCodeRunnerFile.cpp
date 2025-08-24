@@ -1,0 +1,1 @@
+temp->next=create_link_list_begining(arr,n,index+1);
